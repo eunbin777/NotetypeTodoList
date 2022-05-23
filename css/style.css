@@ -1,10 +1,52 @@
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import "container.css";
+
+@font-face{
+    font-family : 'Digital';
+    src: url('../font/Open-24-Display-St.woff') format('woff');
+}
+@font-face{
+    font-family : 'Quotes';
+    src: url('../font/Birds of Paradise _PERSONAL USE ONLY.ttf') format('truetype');
+}
+@font-face{
+    font-family : 'serif weather';
+    src: url('../font/MADE-Sunflower-PERSONAL-USE.woff') format('woff');
+}
 
 .hidden{
     display: none;
 }
 
-#clock{
-    font-family: 'Abril Fatface', cursive;
+.weather h1{
+    font-family:'Quotes';
     font-size: xx-large;
+    letter-spacing: 3px;
+}
+
+#clock{
+    font-family: 'Digital';
+    font-size: 50px;
+    text-align: center;
+    letter-spacing: 4px;
+}
+
+#quote{
+    font-family: 'Quotes';
+    font-size: xx-large;
+}
+
+.todo h1 {
+    font-family: 'Quotes';
+    font-size: xx-large;
+}
+
+#greeting{
+    font-family: 'Quotes';
+    font-size: 50px;
+    letter-spacing: 4px;
+}
+
+.weather_content{
+    font-family: 'serif weather';
+    font-size: x-large;
 }

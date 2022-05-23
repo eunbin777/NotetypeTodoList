@@ -1,0 +1,19 @@
+.container {
+    background-color: #E8F5FF;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.main-content {
+    width: 1500px;
+    height: 800px;
+    left: 100px;
+    top: 80px;
+    background-color: #DCEBFF;
+    display: flex;
+    box-shadow: #8C8CFF 0px 25px 20px -20px;
+    border-radius: 80px;
+}
+
