@@ -1,5 +1,6 @@
 .container {
-    background-color: #E8F5FF;
+    background-color: #DCEBFF;
+    width: 100vw;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -9,11 +10,60 @@
 .main-content {
     width: 1500px;
     height: 800px;
-    left: 100px;
+    margin-left: 70px;
+    margin-right: 70px;
     top: 80px;
-    background-color: #DCEBFF;
+    background-color: #E8F5FF;
     display: flex;
     box-shadow: #8C8CFF 0px 25px 20px -20px;
     border-radius: 80px;
+}
+
+.content .content-left .content-center .content-right{
+    background-color: #F4FFFF;
+}
+
+.content{
+    margin-top:25px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-radius: 15px;
+    transition: box-shadow 0.25s ease-in-out;
+}
+
+.content-left{
+    margin-top: 25px;
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.content-left article{
+    margin-top: 15px;
+}
+
+.content-center{
+    margin-top:15px;
+    text-align: center;
+    width: 35%;
+    height: 30%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.content-right{
+    text-align:center;
+    margin-top:25px;
+    width: 35%;
+    height: 100%;
+    padding: 30px;
+    box-sizing: border-box;
 }
 

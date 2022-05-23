@@ -2,6 +2,10 @@ const weather = document.querySelector(".weather_content span:first-child");
 const city = document.querySelector(".weather_content span:last-child");
 const API_KEY = "7aac8af350d1a18daa2a8dc3f61646e0";
 
+const weatherIconList = {
+    
+}
+
 function OnGeoOk(position){
     const lat = position.coords.latitude;
     const lon = position.coords.longitude;
